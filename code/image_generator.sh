@@ -1,0 +1,4 @@
+python code/eps_gap.py --lassodataset results/gap_eps_lasso_diabetes.pkl --assymetricdataset results/gap_eps_assymetric_diabetes.pkl --robustdataset results/gap_eps_robust_diabetes.pkl --datasetname diabetes
+python code/eps_gap.py --lassodataset results/gap_eps_lasso_synthetic.pkl --assymetricdataset results/gap_eps_assymetric_synthetic.pkl --robustdataset results/gap_eps_robust_synthetic.pkl --datasetname synthetic
+python code/eps_gap.py --lassodataset results/gap_eps_lasso_friedman1.pkl --assymetricdataset results/gap_eps_assymetric_friedman1.pkl --robustdataset results/gap_eps_robust_friedman1.pkl --datasetname friedman1
+python code/eps_gap.py --lassodataset results/gap_eps_lasso_friedman2.pkl --assymetricdataset results/gap_eps_assymetric_friedman2.pkl --robustdataset results/gap_eps_robust_friedman2.pkl --datasetname friedman2
